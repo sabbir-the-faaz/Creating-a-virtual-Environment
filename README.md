@@ -3,9 +3,9 @@ We use a module named virtualenv which is a tool to create virtual environments 
 virtualenv creates a folder that contains all the necessary executables to use the packages that a Python project would need
 
 #Installing virtualenv
-'''
+```
 $ pip install virtualenv
-'''
+```
 
 #Test your installation:
 $ virtualenv --version
