@@ -2,15 +2,18 @@
 We use a module named virtualenv which is a tool to create virtual environments in Python, isolated from system environment Python.
 virtualenv creates a folder that contains all the necessary executables to use the packages that a Python project would need
 
-Installing virtualenv
+#Installing virtualenv
+'''
 $ pip install virtualenv
 
-Test your installation:
+
+#Test your installation:
 $ virtualenv --version
 
-Create a new Virtual Environment
+#Create a new Virtual Environment
 $ virtualenv my_env
 
+'''
 After running this command, a directory named my_env will be created. This is the directory that contains all the necessary executables to use the packages that a Python project would need.
 This is where Python packages will be installed. If you want to specify the Python interpreter of your choice, for example, Python 3, it can be done using the following command:
 $ virtualenv -p /usr/bin/python3 virtualenv_name
