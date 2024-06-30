@@ -5,7 +5,7 @@ virtualenv creates a folder that contains all the necessary executables to use t
 #Installing virtualenv
 '''
 $ pip install virtualenv
-
+'''
 
 #Test your installation:
 $ virtualenv --version
