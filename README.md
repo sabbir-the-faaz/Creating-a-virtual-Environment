@@ -5,7 +5,7 @@ virtualenv creates a folder that contains all the necessary executables to use t
 #Installing virtualenv
 ```
 $ pip install virtualenv
-```
+
 
 #Test your installation:
 $ virtualenv --version
@@ -13,7 +13,7 @@ $ virtualenv --version
 #Create a new Virtual Environment
 $ virtualenv my_env
 
-'''
+```
 After running this command, a directory named my_env will be created. This is the directory that contains all the necessary executables to use the packages that a Python project would need.
 This is where Python packages will be installed. If you want to specify the Python interpreter of your choice, for example, Python 3, it can be done using the following command:
 $ virtualenv -p /usr/bin/python3 virtualenv_name
