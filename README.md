@@ -23,8 +23,8 @@ Now after creating a virtual environment, you need to activate it. Remember to a
 
 Activate a Virtual Environment on Windows
 To activate virtual environment using windows command prompt change directory to your virtual env, Then use the below command```
-```$ cd <envname>
-$ Scripts\activate```
+```$ cd <envname>```
+```$ Scripts\activate```
 Note: source is a shell command designed for users running on Linux (or any Posix, but whatever, not Windows).
 
 Activate a virtual environment on Linux
