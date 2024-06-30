@@ -23,15 +23,15 @@ Now after creating a virtual environment, you need to activate it. Remember to a
 
 Activate a Virtual Environment on Windows
 To activate virtual environment using windows command prompt change directory to your virtual env, Then use the below command```
-$ cd <envname>
-$ Scripts\activate ```
+```$ cd <envname>
+$ Scripts\activate```
 Note: source is a shell command designed for users running on Linux (or any Posix, but whatever, not Windows).
 
 Activate a virtual environment on Linux
-$ source virtualenv_name/bin/activate
+```$ source virtualenv_name/bin/activate```
 
 Once the virtual environment is activated, the name of your virtual environment will appear on the left side of the terminal.
-![image](https://github.com/the-faaz/Creating-a-virtual-Environment/assets/161277809/410ec6cb-c6ec-4cea-8e03-8550bf385118)
+```![image](https://github.com/the-faaz/Creating-a-virtual-Environment/assets/161277809/410ec6cb-c6ec-4cea-8e03-8550bf385118)```
 This will let you know that the virtual environment is currently active.
 
 Installing Dependencies in Virtual Environment Python
