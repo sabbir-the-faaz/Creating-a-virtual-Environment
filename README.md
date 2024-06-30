@@ -16,15 +16,15 @@ $ virtualenv my_env
 ```
 After running this command, a directory named my_env will be created. This is the directory that contains all the necessary executables to use the packages that a Python project would need.
 This is where Python packages will be installed. If you want to specify the Python interpreter of your choice, for example, Python 3, it can be done using the following command:
-$ virtualenv -p /usr/bin/python3 virtualenv_name
+```$ virtualenv -p /usr/bin/python3 virtualenv_name```
 
 Activating a Virtual Environment in Python
 Now after creating a virtual environment, you need to activate it. Remember to activate the relevant virtual environment every time you work on the project. This can be done using the following command:
 
 Activate a Virtual Environment on Windows
-To activate virtual environment using windows command prompt change directory to your virtual env, Then use the below command
+To activate virtual environment using windows command prompt change directory to your virtual env, Then use the below command```
 $ cd <envname>
-$ Scripts\activate 
+$ Scripts\activate ```
 Note: source is a shell command designed for users running on Linux (or any Posix, but whatever, not Windows).
 
 Activate a virtual environment on Linux
